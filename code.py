@@ -15,6 +15,12 @@ new = {"Name":"ganesh",
 
 df.loc[len(df.index)] = new
 
+new = {"Name":"hamesh",
+        "age": 34
+        }
+
+df.loc[len(df.index)] = new
+
 data_dir = 'Data'
 
 os.makedirs(data_dir,exist_ok =True)
