@@ -8,6 +8,12 @@ data = {"Name" : ["sagar","vineet","lalit"],
 
 df = pd.DataFrame(data)
 # print(df)
+#new row 
+new = {"Name":"ganesh",
+        "age": 34
+        }
+
+df.loc[len(df.index)] = new
 
 data_dir = 'Data'
 
